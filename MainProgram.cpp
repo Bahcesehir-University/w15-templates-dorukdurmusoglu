@@ -34,7 +34,7 @@ T maxValue(T a, T b) {
 template <typename T1, typename T2>
 auto addValues(T1 a, T2 b) -> decltype(a + b) {
     // TODO 2: return the sum of a and b
-    return a; // <-- replace
+    return a +b; // <-- replace
 }
 
 // ---- Group 3: Class template ----------------------------------------------
